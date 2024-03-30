@@ -12,7 +12,7 @@ import git from '../assets/git.png'
 
 const Experience = () => {
   return (
-    <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div name='experience' id='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
         <div className='max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full text-white sm:px-4'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
