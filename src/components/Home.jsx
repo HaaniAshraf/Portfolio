@@ -3,6 +3,14 @@ import HeroImage from '../assets/heroIcon.jpg'
 import { FaArrowRight } from "react-icons/fa6";
 
 const Home = () => {
+
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById('portfolio');
+    if (portfolioSection) {
+        portfolioSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
     return (
       <div
         name="home" id="home"
@@ -20,7 +28,8 @@ const Home = () => {
             </p>
   
             <div>
-                <button className="group text-white text-xl w-fit px-6 py-3 my-2 font-bold flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer">
+                <button onClick={scrollToPortfolio} className="group text-white text-xl w-fit px-6 py-3 my-2
+                 font-bold flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
                   <FaArrowRight size={20} className="ml-1" />
