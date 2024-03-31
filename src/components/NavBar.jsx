@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaGithub,FaLinkedin } from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 function NavBar() {
     const [nav, setNav] = useState(false);
@@ -34,6 +37,30 @@ function NavBar() {
                     <li className='px-4 cursor-pointer capitalize py-6 text-4xl hover:text-gray-300 duration-200' onClick={() => scrollToSection('portfolio', setNav)}>Portfolio</li>
                     <li className='px-4 cursor-pointer capitalize py-6 text-4xl hover:text-gray-300 duration-200' onClick={() => scrollToSection('experience', setNav)}>Experience</li>
                     <li className='px-4 cursor-pointer capitalize py-6 text-4xl hover:text-gray-300 duration-200' onClick={() => scrollToSection('contact', setNav)}>Contact</li>
+                    
+                    <div className='flex mt-10'>
+                    <li className='px-4 cursor-pointer capitalize py-4 text-2xl hover:text-gray-300 duration-200'>
+                        <a href="https://www.linkedin.com/in/haani-ashraf-ba1163283/" className='flex justify-between items-center w-full text-white'>
+                        <> <FaLinkedin className='ml-2 text-gray-400 hover:text-white duration-300' size={35}/></>
+                        </a>
+                    </li>
+                    <li className='px-4 cursor-pointer capitalize py-4 text-2xl hover:text-gray-300 duration-200'>
+                        <a href="https://github.com/HaaniAshraf" className='flex justify-between items-center w-full text-white'>
+                        <> <FaGithub className='ml-2 text-gray-400 hover:text-white duration-300' size={35}/></>
+                        </a>
+                    </li>
+                    <li className='px-4 cursor-pointer capitalize py-4 text-2xl hover:text-gray-300 duration-200'>
+                        <a href="mailto:haaniashraf1234@gmail.com" className='flex justify-between items-center w-full text-white'>
+                        <> <HiOutlineMail className='ml-2 text-gray-400 hover:text-white duration-300' size={35}/></>
+                        </a>
+                    </li>
+                    <li className='px-4 cursor-pointer capitalize py-4 text-2xl hover:text-gray-300 duration-200'>
+                        <a href="https://linkedin.com" className='flex justify-between items-center w-full text-white'>
+                        <> <BsFillPersonLinesFill className='ml-2 text-gray-400 hover:text-white duration-300' size={35}/></>
+                        </a>
+                    </li>
+                    </div>
+                    
                 </ul>
             )}
 
