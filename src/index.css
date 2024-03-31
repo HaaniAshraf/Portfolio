@@ -11,3 +11,78 @@
     font-family: "Raleway", sans-serif;
   }
 }
+
+@layer components {
+  /* outer social links */
+  .contact-item {
+    @apply flex justify-between items-center w-40 h-14 px-4 bg-gray-600 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300;
+  }
+  .contact-link {
+    @apply flex justify-between items-center w-full text-white rounded-tr-md;
+  }
+
+  /* nav links */
+  .nav-item {
+    @apply px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200 hover:text-gray-300;
+  }
+  .nav-link {
+    @apply px-4 cursor-pointer capitalize py-6 text-4xl hover:text-gray-300 duration-200;
+  }
+
+  /* nav social links */
+  .icon-item {
+    @apply px-4 cursor-pointer capitalize py-4 text-2xl hover:text-gray-300 duration-200;
+  }
+  .icon-link {
+    @apply flex justify-between items-center w-full text-white;
+  }
+  .icon {
+    @apply ml-2 text-gray-400 hover:text-white duration-300;
+  }
+
+  /* experience cards */
+  .experience-card{
+    @apply  hover:scale-105 duration-500 py-2 rounded-lg shadow-md
+  }
+  .html{
+    @apply shadow-orange-800
+  }
+  .css{
+    @apply shadow-blue-800
+  }
+  .js{
+    @apply shadow-yellow-600
+  }
+  .reactjs{
+    @apply shadow-cyan-800
+  }
+  .tailwind{
+    @apply shadow-cyan-400
+  }
+  .node{
+    @apply shadow-green-500
+  }
+  .express{
+    @apply shadow-yellow-600
+  }
+  .mongo{
+    @apply shadow-green-800
+  }
+  .git{
+    @apply shadow-red-400
+  }
+
+  /* projects */
+  .project-card {
+    @apply shadow-md shadow-gray-600 rounded-lg;
+  }
+  .project-image {
+    @apply rounded-md duration-200 hover:scale-105 h-2/3;
+  }
+  .project-title {
+    @apply w-full text-center mt-2 font-semibold text-xl;
+  }
+  .project-button {
+    @apply w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110;
+  }
+}

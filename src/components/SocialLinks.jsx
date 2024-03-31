@@ -8,28 +8,24 @@ const SocialLinks = () => {
   return (
     <div className=' hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
-            <li className='flex justify-between items-center w-40 h-14
-            px-4 bg-gray-600 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 rounded-tr-md'>
-                <a href="https://www.linkedin.com/in/haani-ashraf-ba1163283/" className='flex justify-between items-center w-full text-white rounded-tr-md'>
-                <>LinkedIn <FaLinkedin size={30}/></>
+            <li class="contact-item">
+                <a href="https://www.linkedin.com/in/haani-ashraf-ba1163283/" class="contact-link">
+                    LinkedIn <FaLinkedin size={30}/>
                 </a>
             </li>
-            <li className='flex justify-between items-center w-40 h-14
-            px-4 bg-gray-600 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300'>
-                <a href="https://github.com/HaaniAshraf" className='flex justify-between items-center w-full text-white rounded-tr-md'>
-                <>Github <FaGithub size={30}/></>
+            <li class="contact-item">
+                <a href="https://github.com/HaaniAshraf" class="contact-link">
+                    Github <FaGithub size={30}/>
                 </a>
             </li>
-            <li className='flex justify-between items-center w-40 h-14
-            px-4 bg-gray-600 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300'>
-                <a href="mailto:haaniashraf1234@gmail.com" className='flex justify-between items-center w-full text-white rounded-tr-md'>
-                <>Mail <HiOutlineMail size={30}/></>
+            <li class="contact-item">
+                <a href="mailto:haaniashraf1234@gmail.com" class="contact-link">
+                    Mail <HiOutlineMail size={30}/>
                 </a>
             </li>
-            <li className='flex justify-between items-center w-40 h-14
-            px-4 bg-gray-600 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 rounded-br-md'>
-                <a href="https://linkedin.com" className='flex justify-between items-center w-full text-white rounded-tr-md'>
-                <>Resume <BsFillPersonLinesFill size={30}/></>
+            <li class="contact-item">
+                <a href="https://linkedin.com" class="contact-link">
+                    Resume <BsFillPersonLinesFill size={30}/>
                 </a>
             </li>
         </ul>

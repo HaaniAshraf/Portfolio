@@ -19,39 +19,39 @@ const Experience = () => {
                 <p className='py-6'>These are the technologies I've worked with :</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
-                <div className='shadow-md shadow-orange-800 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card html'>
                     <img src={html} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>HTML</p>
                 </div>
-                <div className='shadow-md shadow-blue-800 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card css'>
                     <img src={css} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>CSS</p>
                 </div>
-                <div className='shadow-md shadow-yellow-600 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card js'>
                     <img src={javascript} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>JAVASCRIPT</p>
                 </div>
-                <div className='shadow-md shadow-cyan-800 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card reactjs'>
                     <img src={reactImage} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>REACT.JS</p>
                 </div>
-                <div className='shadow-md shadow-cyan-400 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card tailwind'>
                     <img src={tailwind} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>TAILWIND</p>
                 </div>
-                <div className='shadow-md shadow-green-500 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card node'>
                     <img src={node} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>NODE.JS</p>
                 </div>
-                <div className='shadow-md shadow-yellow-600 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card express'>
                     <img src={express} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>EXPRESS.JS</p>
                 </div>
-                <div className='shadow-md shadow-green-800 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card mongo'>
                     <img src={mongodb} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>MONGO-DB</p>
                 </div>
-                <div className='shadow-md shadow-red-400 hover:scale-105 duration-500 py-2 rounded-lg'>
+                <div class='experience-card git'>
                     <img src={git} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>GIT</p>
                 </div>

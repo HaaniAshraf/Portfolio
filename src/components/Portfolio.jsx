@@ -13,34 +13,37 @@ const Portfolio = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-                <div className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={Ecommerce} alt="" className='rounded-md duration-200 hover:scale-105 h-2/3'/>
-                    <h2 className='w-full text-center mt-2 font-semibold text-xl'>E-commerce Website</h2>
+                <div className='project-card'>
+                    <img src={Ecommerce} alt="" className='project-image'/>
+                    <h2 className='project-title'>E-commerce Website</h2>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</button>
-                       <a href="https://github.com/HaaniAshraf/E-commerce-website">
-                       <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Code</button>
-                       </a>
+                        <button className='project-button'>Demo</button>
+                        <a href="https://github.com/HaaniAshraf/E-commerce-website">
+                            <button className='project-button'>Code</button>
+                        </a>
                     </div>
                 </div>
-                <div className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={TodoList} alt="" className='rounded-md duration-200 hover:scale-105 h-2/3'/>
-                    <h2 className='w-full text-center mt-2 font-semibold text-xl'>To-Do List</h2>
+                <div className='project-card'>
+                    <img src={TodoList} alt="" className='project-image'/>
+                    <h2 className='project-title'>To-Do List</h2>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</button>
-                       <a href="https://github.com/HaaniAshraf/To-Do-List">
-                       <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Code</button></a> 
+                        <button className='project-button'>Demo</button>
+                        <a href="https://github.com/HaaniAshraf/To-Do-List">
+                            <button className='project-button'>Code</button>
+                        </a> 
                     </div>
                 </div>
-                <div className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={Koenigsegg} alt="" className='rounded-md duration-200 hover:scale-105 h-2/3'/>
-                    <h2 className='w-full text-center mt-2 font-semibold text-xl'>Koenigsegg Website</h2>
+                <div className='project-card'>
+                    <img src={Koenigsegg} alt="" className='project-image'/>
+                    <h2 className='project-title'>Koenigsegg Website</h2>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</button>
-                       <a href="https://github.com/HaaniAshraf/Koenigsegg-website">
-                       <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Code</button></a> 
+                        <button className='project-button'>Demo</button>
+                        <a href="https://github.com/HaaniAshraf/Koenigsegg-website">
+                            <button className='project-button'>Code</button>
+                        </a> 
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
