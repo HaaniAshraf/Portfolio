@@ -19,39 +19,39 @@ const Experience = () => {
                 <p className='py-6'>These are the technologies I've worked with :</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
-                <div class='experience-card html'>
+                <div className='experience-card html'>
                     <img src={html} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>HTML</p>
                 </div>
-                <div class='experience-card css'>
+                <div className='experience-card css'>
                     <img src={css} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>CSS</p>
                 </div>
-                <div class='experience-card js'>
+                <div className='experience-card js'>
                     <img src={javascript} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>JAVASCRIPT</p>
                 </div>
-                <div class='experience-card reactjs'>
+                <div className='experience-card reactjs'>
                     <img src={reactImage} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>REACT.JS</p>
                 </div>
-                <div class='experience-card tailwind'>
+                <div className='experience-card tailwind'>
                     <img src={tailwind} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>TAILWIND</p>
                 </div>
-                <div class='experience-card node'>
+                <div className='experience-card node'>
                     <img src={node} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>NODE.JS</p>
                 </div>
-                <div class='experience-card express'>
+                <div className='experience-card express'>
                     <img src={express} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>EXPRESS.JS</p>
                 </div>
-                <div class='experience-card mongo'>
+                <div className='experience-card mongo'>
                     <img src={mongodb} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>MONGO-DB</p>
                 </div>
-                <div class='experience-card git'>
+                <div className='experience-card git'>
                     <img src={git} alt="" className='w-20 mx-auto' />
                     <p className='mt-4'>GIT</p>
                 </div>
